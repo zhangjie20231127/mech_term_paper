@@ -1,0 +1,89 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / local tooling
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# OS metadata
+*.Zone.Identifier
+*:Zone.Identifier
+
+# Training outputs and checkpoints
+outputs/
+crocodile_crltga/outputs/
+**/runs/
+**/wandb/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.keras
+*.tfevents*
+
+# Generated logs and caches
+*.log
+train_status.txt
+
+# Large data / experiment artifacts
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.zip
+*.tar
+*.gz
+
+# Local datasets
+data/
+datasets/
+!crocodile_crltga/src/data/
+!crocodile_crltga/src/data/*.py
+
+# External reference repositories and temporary baselines
+_references/
+chexphoto_ood_baseline/
+indiana_mirror_ood_baseline/
+
+# Binary paper assets not needed for the code repo
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Local drafts and intermediate notes
+AUC_*.md
+auc_*.md
+draft*.md
+suggestions*.md
+paper_submitable_source.md
+chexphoto_download_and_eval_notes.md
+
+# Superseded documentation snapshots
+crocodile_crltga/README.md
+crocodile_crltga/docs/*.html
+crocodile_crltga/docs/final_project_recommendation.md
+crocodile_crltga/docs/model_selection_and_architecture.md
+crocodile_crltga/docs/repo_alignment_audit.md
+crocodile_crltga/docs/training_experiment_summary_for_paper.md
+crocodile_crltga/docs/training_issue_log.md
