@@ -69,9 +69,7 @@ flowchart TD
 │   ├── docs/
 │   └── src/
 ├── evaluate_chexphoto_kamen_baseline.py
-├── evaluate_indiana_kamen_baseline.py
-├── download_chexphoto_valid.py
-└── generate_paper_docx.py
+└── evaluate_indiana_kamen_baseline.py
 ```
 
 核心说明文档：
